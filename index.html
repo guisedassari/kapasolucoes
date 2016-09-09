@@ -26,7 +26,7 @@
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                        <span class="sr-only">Toggle navigation</span> <i class="fa fa-2x fa-bars" aria-hidden="true"></i>
                     </button>
                     <a class="navbar-brand page-scroll logo1" href="#page-top"><img class="logo" src="img/logo2.png"></a>
                     <a class="navbar-brand page-scroll logo2" href="#page-top"><img class="logo-mobile" src="img/logo5.png"></a>
@@ -69,7 +69,7 @@
                         <h2 class="section-heading">Nós temos o que você precisa!</h2>
                         <hr class="light">
                         <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                        <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                        <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Começar</a>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,6 @@
                             <p class="text-muted">We update dependencies to keep things fresh.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -159,7 +158,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <a href="img/portfolio/fullsize/pintura.jpg" class="portfolio-box">
                             <img src="img/portfolio/thumbnails/pintura.jpg" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -215,18 +214,18 @@
                         <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
                     </div>
                     <div class="col-lg-4 col-lg-offset-2">
-                        <form>
+                        <form action="email.php" method="post">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                             </div>
                             <div class="form-group">
                                 <label for="assunto">Assunto</label>
-                                <input type="text" class="form-control" id="assunto" placeholder="Assunto">
+                                <input type="text" name="assunto" class="form-control" id="assunto" placeholder="Assunto">
                             </div>
                             <div class="form-group">
                                 <label for="mensagem">Mensagem</label>
-                                <textarea class="form-control" rows="3"></textarea>
+                                <textarea class="form-control" name="mensagem" rows="3"></textarea>
                             </div>
                             <div class="text-right"> 
                                 <button type="submit" class="btn btn-warning">Enviar</button>
@@ -236,10 +235,10 @@
                     <br><br>
                     <div class="col-lg-4 text-center">
                         <i class="fa fa-phone fa-3x sr-contact"></i>
-                        <p>(16) 98845-7544</p>
+                        <p class="telefone">(16) 98845-7544</p>
                         <br>
                         <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                        <p><a href="mailto:your-contato@kapasolucoes.com.br">contato@kapasolucoes.com.br</a></p>
+                        <p>contato@kapasolucoes.com.br</p>
                     </div>
                 </div>
             </div>
